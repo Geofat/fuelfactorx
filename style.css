@@ -4,6 +4,37 @@
     box-sizing: border-box;
 }
 
+.call {
+    /* width: 50px; */
+    position: fixed;
+    /* border: 2px solid tomato; */
+    display: flex;
+    align-items: center;
+
+}
+.call p{
+    color: white;
+    font-size: 15px;
+}
+.fa-phone {
+    width: 100px;
+    height: 100px;
+    color: green;
+    font-size: 50px;
+    border: 3px solid green;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-phone a {
+    color: green;
+    font-size: 15px;
+
+}
+
 h2 {
     color: green;
     text-align: center;
@@ -39,7 +70,13 @@ span {
     background: green;
     color: yellow;
 }
-p{
+
+p {
     text-align: center;
     font-size: 32px;
+}
+
+button {
+    text-align: center;
+    margin: 15px auto;
 }
