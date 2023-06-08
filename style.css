@@ -29,9 +29,10 @@
     align-items: center;
 }
 
-.fa-phone a {
+.call a {
     color: green;
     font-size: 15px;
+    text-decoration: none;
 
 }
 
@@ -76,7 +77,14 @@ p {
     font-size: 32px;
 }
 
-button {
-    text-align: center;
-    margin: 15px auto;
+.btn{
+display: flex;
+justify-content: center;
+}
+.btn button{
+    font-size: 25px;
+}
+.btn a{
+    text-decoration: none;
+    color: red;
 }
