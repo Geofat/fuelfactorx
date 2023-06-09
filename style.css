@@ -96,8 +96,8 @@ body{
     align-items: center;
 }
 .image-holder{
-    width: 700px;
-    height: 700px;
+    width: 400px;
+    height: 450px;
 }
 h2 {
     color: green;
@@ -170,8 +170,7 @@ b{
     align-items: center; */
 /* } */
 ol{
-    margin-left: 10px;
-    padding-left: 15px;
+    padding-left: 35px;
 }
 li {
     font-size: 18px;
