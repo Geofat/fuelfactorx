@@ -91,11 +91,13 @@ body{
 }
 .ffx-image{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 .image-holder{
-    width: 450px;
-    height: 350px;
+    width: 700px;
+    height: 700px;
 }
 h2 {
     color: green;
@@ -103,7 +105,6 @@ h2 {
     font-size: 30px;
     font-weight: bolder;
     margin: 10px 0;
-    /* border: 3px solid tomato; */
 }
 
 h3 {
@@ -170,6 +171,7 @@ b{
 /* } */
 ol{
     margin-left: 10px;
+    padding-left: 15px;
 }
 li {
     font-size: 18px;
