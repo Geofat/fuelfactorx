@@ -101,9 +101,9 @@
     <div class="usage">
         <h1 style="color: green; text-decoration: none;">Various Application of FFX</h1>
         <h4 style="text-decoration: none;color: greenyellow; margin-top: 10px;">Cooking gas usage</h4>
-        <video src="./media/ffx application to cooking gas 2.mp4" width="400px" height="350px" controls></video>
+        <video src="./media/ffx application to cooking gas 2.mp4" width="100%" height="350px" controls></video>
         <h4 style="text-decoration: none;color: greenyellow;">use by large companies</h4>
-        <video src="./media/largecomapny.mp4" width="400px" height="350px" controls></video>
+        <video src="./media/largecomapny.mp4" width="100%" height="350px" controls></video>
         <hr>
         <div class="image-holder">
             <img src="./img/sachet ffx.png" alt="sachetffx">
@@ -125,20 +125,20 @@
     <div class="benefit-heading">
         <b>Fill The Form Below To Place Your Order</b>
     </div>
-    <form action="mailto:Geofat2015@myself.com">
+    <form action="mailto:Geofat2015@myself.com" onsubmit="return submitForm()">
         <fieldset style=" border:3px solid green; border-radius: 20px; ">
             <legend style="text-align: center;">Order Form</legend>
         <label for="FULL NAME"> FULL NAME</label>
         <br>
-        <input type="name" placeholder="enter your name" required><br>
+        <input type="name" id="full-name" placeholder="enter your name" required><br>
 
         <label for="Phone number"> PHONE NUMBER</label>
         <br>
-        <input type="number" placeholder="enter your phone number" required><br>
+        <input type="tel" id="phone" placeholder="enter your phone number" required><br>
 
         <label for="email"> EMAIL</label>
         <br>
-        <input type="email" placeholder="enter your email"><br>
+        <input type="email" id="email" placeholder="enter your email"><br>
 
         <label for="address">DELIVERY ADDRESS</label><br>
         <textarea name="address" id="address" cols="30" rows="10" placeholder="type your address"
@@ -155,10 +155,10 @@
             <label for="more sachet" style="font-size:25px" >HIGHER ORDER
             </label><br>
         <br>
-       <button type="submit" href><a href="mailto:geofat2015@myself.com"> Submit Order</a></button>
+        <input type="submit" value="Submit">
         </fieldset>
     </form>
-
+<script src="main.js"></script>
 </body>
 
 </html>

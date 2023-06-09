@@ -165,13 +165,9 @@ b{
     text-align: center;
     text-decoration: underline;
 }
-/* .benefits{
-    display: flex;
-    flex-direction: column;
-    align-items: center; */
-/* } */
 ol{
     padding-left: 35px;
+    width: 100%;
 }
 li {
     font-size: 18px;
