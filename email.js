@@ -43,4 +43,3 @@ btn.addEventListener('click', function (e) {
 //     }).then(
 //         message => alert("Order Successful")
 //     );
-}
