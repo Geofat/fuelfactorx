@@ -206,15 +206,18 @@ textarea{
     width: 300px;
 }
 br + button{
-    color: green;
+    color:white;
     height: 40px;
+    background-color: green;
     width: 120px;
+    font-size: 20px;
     border: 3px solid green;
     border-radius: 20px;
 }
 button a{
     text-decoration: none;
-    color: green;
-    font-size: 16px;
+    color:white;
+    background: green;
+    font-size: 20px;
     display: block;
 }
