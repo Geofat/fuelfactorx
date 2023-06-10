@@ -5,22 +5,22 @@ btn.addEventListener('click', function (e) {
     var email = document.getElementById("email").value;
     var number = document.getElementById("phone").value;
     var address = document.getElementById("address").value;
-    // // var quantity1 = document.getElementById("quantity1").value;
-    // var quantity2 = document.getElementById("quantity2").value;
-    // var quantity3 = document.getElementById("quantity3").value;
-    // var quantity4 = document.getElementById("quantity1").value;
+    var quantity1 = document.getElementById("quantity1").value;
+    var quantity2 = document.getElementById("quantity2").value;
+    var quantity3 = document.getElementById("quantity3").value;
+    var quantity4 = document.getElementById("quantity1").value;
     var body = 'name: ' + name + '<br/> email: ' + email + '<br/> number: ' + number + '<br/> address:' + address 
-    // +
-        // '<br/> quantity1: ' + quantity1 + '<br/> quantity2: ' + quantity2 + '<br/> quantity3: ' + quantity3 + '<br/> quantity4: ' + quantity4;
+    +
+        '<br/> quantity1: ' + quantity1 + '<br/> quantity2: ' + quantity2 + '<br/> quantity3: ' + quantity3 + '<br/> quantity4: ' + quantity4;
 
     Email.send({
         SecureToken: "9b2585f4-a547-42c0-b116-fa6177f21888",
         To: 'fatojay69@gmail.com',
         From: "Geofat2015@gmail.com",
         Subject: "NEW ORDER ARRIVAL",
-        Body: "body"
+        Body: body
     }).then(
-        message => alert()
+        message => alert('order successsful')
     );
 
 })
