@@ -125,7 +125,7 @@
     <div class="benefit-heading">
         <b>Fill The Form Below To Place Your Order</b>
     </div>
-    <form action="mailto:Geofat2015@myself.com" onsubmit="return submitForm()">
+    <form onsubmit="sendEmail(); reset(); return false;">
         <fieldset style=" border:3px solid green; border-radius: 20px; ">
             <legend style="text-align: center;">Order Form</legend>
         <label for="FULL NAME"> FULL NAME</label>
@@ -145,20 +145,22 @@
             required></textarea><br>
 
         <label for="quantity">QUANTITY</label><br>
-        <input type="radio" name="ffx quantity" id="quantity" style="width: 16px;">
+        <input type="radio" name="ffx quantity" id="quantity1" style="width: 16px;">
             <label for="1 sachet" style="font-size:25px" >1 SACHET-&#8358 10000</label><br>
-        <input type="radio" name="ffx quantity" id="quantity"style="width: 16px;">
+        <input type="radio" name="ffx quantity" id="quantity2"style="width: 16px;">
             <label for="2 sachet" style="font-size:25px" width:100% >2 SACHET-&#8358 18000</label><br>
-        <input type="radio" name="ffx quantity" id="quantity"style="width: 16px;">
+        <input type="radio" name="ffx quantity" id="quantity3"style="width: 16px;">
             <label for="3 sachet" style="font-size:25px" >3 SACHET-&#8358 25000</label><br>
-        <input type="radio" name="ffx quantity" id="quantity" style="width: 16px;">
+        <input type="radio" name="ffx quantity" id="quantity4" style="width: 16px;">
             <label for="more sachet" style="font-size:25px" >HIGHER ORDER
             </label><br>
         <br>
-        <input type="submit" value="Submit">
+        <button type="submit" value="Submit">Submit</button>
         </fieldset>
     </form>
-<script src="main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="email.js"></script>
+<!-- <script src="main.js"></script> -->
 </body>
 
 </html>
